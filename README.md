@@ -1,2 +1,2 @@
 # BloqueameEsta
-Extensión para saltear bloqueos en páginas web de noticias
+Extensión de Chrome/Edge para saltear bloqueos en páginas web de noticias

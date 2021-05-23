@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+
+    "name": "Bloqueame Esta",
+    "description": "Leer diario sin suscripcion",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "icon.png"
+
+    },
+    "content_scripts": [{
+        "matches": ["*://*.clarin.com/*"],
+        "js": ["contentScript.js"]
+    }],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "activeTab", "tabs"
+    ]
+}

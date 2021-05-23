@@ -3,7 +3,7 @@ chrome.runtime.onMessage.addListener(gotMessage);
 function gotMessage(message, sender, sendResponse) {
     let mensaje = message.txt;
 
-    if (mensaje === "desbloquea") {
+    if (mensaje === "clarin") {
 
         document.getElementsByTagName("html")[0].style["overflow-y"] = "scroll";
 
